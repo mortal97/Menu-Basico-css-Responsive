@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white    ;
+}
+header{
+    min-height: 70px;
+    display: flex;
+    background-color: black;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+   
+}
+.nombre-empresa{
+    margin-top: 10px;
+    margin-right: 5px;
+    display: flex;
+    
+    
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    height: 50px ;
+    margin-right: 12px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 11px;
+ 
+
+}
+nav a:hover{
+    color: yellow;
+}
+@media (max-width:510px){
+    header{
+        flex-direction: column;
+        transition:  1s ease-in-out;
+    }
+    nav{
+        padding: 10px;
+
+    }
+}
